@@ -1,0 +1,101 @@
+/* .dimension{
+    text-align: center;
+    border: 3px solid black;
+    height: 100px;
+    padding: 10px 20px;
+    margin: 10px 30px;
+
+}
+*{
+
+
+.inner
+{
+    border: 2px solid black;
+    height: 100%;
+} */
+/* 
+.out{
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  padding: 20px 30px;
+  margin: 10px 20px;
+
+}
+
+.inner{
+  border: 1px solid black;
+  height: 100%;
+  
+} */
+
+/* 
+body{
+
+  height: 2000px;
+}
+.up{
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 50px;
+}
+#first{
+
+  background-color: red;
+  height: 500px;
+  width: 100%;
+}
+
+#second{
+  
+  background-color: blue;
+  width: 100%;
+
+  height: 500px;
+} */
+
+li{
+  list-style-type: none;
+
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  position: relative;
+  padding: 0;
+
+}
+
+.menu li{
+  padding: 20px;
+  text-align: center;
+  background-color: antiquewhite;
+  transition: all 0.3s linear;
+}
+
+.menu li:hover{
+  background-color: tan;
+}
+.menu li.active{
+  background-color: tan;
+}
+
+.runner{
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  height: 5px;
+  background-color: crimson;
+  width: 170px;
+  transition: all 0.3s linear;
+}
